@@ -1,1 +1,1 @@
-# Padma-river-scenario
+# AIUB-campus-scenario
