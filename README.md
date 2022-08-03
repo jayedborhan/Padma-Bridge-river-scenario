@@ -1,1 +1,0 @@
-# AIUB-campus-scenario
