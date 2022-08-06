@@ -1,11 +1,25 @@
+
 #include<windows.h>
-#ifdef __APPLE__
-#include <GLUT/glut.h>
+
+
+#ifdef__APPLE__
+
+#include<GLUT/glut.h>
+
+
 #else
-#include <GL/glut.h>
+
+
+#include<GL/glut.h>
+
+
 #endif
-#include <stdlib.h>
-#include <math.h>
+
+
+#include<stdlib.h>
+
+#include<math.h>
+
 float p=-0.005;
 float s=-0.005;
 float u=-0.005;
