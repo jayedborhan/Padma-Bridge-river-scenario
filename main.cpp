@@ -338,7 +338,7 @@ void bridge(){
 void lampPost_panel(int val){ //for bridge
 
 
-//right panel
+
 
     glBegin(GL_POLYGON);
     glColor3f(0.36f, 0.39f, 0.44f);
@@ -550,8 +550,8 @@ void displayMor(){
 
     glPopMatrix();
 
-    //lights road
-    glPushMatrix();//lampost
+    
+    glPushMatrix();
     glLineWidth(1);
     glTranslatef(0.7f,-0.08f,0.0f);
 	glScaled(0.3,0.3,1);
@@ -578,7 +578,7 @@ void displayMor(){
 
     glPopMatrix();
 
-    //vehicles road
+    
     glPushMatrix();
     glTranslatef(0.0f,0.80f,0.0f);
     glScaled(1.5,1.4,1);
