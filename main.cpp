@@ -350,9 +350,9 @@ void lampPost_panel(int val){ //for bridge
 
     glEnd();
 
-    ////////////////////////////
+   
 
-//joint
+
     glBegin(GL_POLYGON);
     glColor3f(0.36f, 0.39f, 0.44f);
 
@@ -363,10 +363,10 @@ void lampPost_panel(int val){ //for bridge
 
     glEnd();
 
-    /////////////////////////////////////////
+    
 
-//tube_holder
-    ////////////////
+
+   
 
     glBegin(GL_POLYGON);
     glColor3f(0.36f, 0.39f, 0.44f);
@@ -391,9 +391,9 @@ void lampPost_panel(int val){ //for bridge
 
     glEnd();
 
-    ////////////////////////
+    
 
-    //night light
+    
     if(val == 9){
      glBegin(GL_POLYGON);
         glColor4f(1.0f, 1.0f, 0.0f, 5.0f);
