@@ -378,9 +378,8 @@ void lampPost_panel(int val){ //for bridge
 
     glEnd();
 
-    ////////////////////////////////
+    
 
-//tube
 
     glBegin(GL_POLYGON);
     glColor3f(0.29f, 0.20f, 0.23f);
