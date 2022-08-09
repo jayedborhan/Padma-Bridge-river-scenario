@@ -29,7 +29,7 @@ void updateBridgeCar1(int value){
 }
 GLfloat positionBridgeCar2 = -5.0f;
 GLfloat speedBridgeCar2 = 0.08f;
-void updateBridgeCar2(int value){ //2
+void updateBridgeCar2(int value){ 
 
     if(positionBridgeCar2 > 4.0)
         positionBridgeCar2 = -8.2f;
@@ -171,7 +171,7 @@ void bridgeCar2(int val){
       glVertex2f(-0.15f, 0.22f);
     glEnd();
 
-     glBegin(GL_POLYGON);       //tube light
+     glBegin(GL_POLYGON);       
       glColor3f(1.0f, 1.0f, 0.0f);
       glVertex2f(0.6f, 0.15f);
       glVertex2f(0.7f, 0.15f);
@@ -179,7 +179,7 @@ void bridgeCar2(int val){
       glVertex2f(0.6f, 0.1f);
     glEnd();
 
-    float t1_angle;        //tire 1
+    float t1_angle;        
     float t1_radius = 0.1;
     float t1_x,t1_y, t1_p, t1_q;
 
@@ -198,7 +198,7 @@ void bridgeCar2(int val){
     }
     glEnd();
 
-    float i1_angle;        //tire 1 inside
+    float i1_angle;        
     float i1_radius = 0.07;
     float i1_x,i1_y, i1_p, i1_q;
 
@@ -217,7 +217,7 @@ void bridgeCar2(int val){
     }
     glEnd();
 
-    float t2_angle;        //tire 2
+    float t2_angle;        
     float t2_radius = 0.1;
     float t2_x,t2_y, t2_p, t2_q;
 
@@ -235,7 +235,7 @@ void bridgeCar2(int val){
     }
     glEnd();
 
-    float i2_angle;        //tire 2 inside
+    float i2_angle;        
     float i2_radius = 0.07;
     float i2_x,i2_y, i2_p, i2_q;
 
@@ -254,7 +254,7 @@ void bridgeCar2(int val){
     }
     glEnd();
     if(val == 9){
-    glBegin(GL_TRIANGLES); //light
+    glBegin(GL_TRIANGLES); 
       glColor3f(1.0f,1.f,0.0f);
       glVertex2f(0.95f,  0.2f);
       glVertex2f(0.69f,  0.12f);
@@ -335,7 +335,7 @@ void bridge(){
 
     glPopMatrix();
 }
-void lampPost_panel(int val){ //for bridge
+void lampPost_panel(int val){ 
 
 
 
@@ -406,7 +406,7 @@ void lampPost_panel(int val){ //for bridge
 }
 
 void borders(){
-    glBegin(GL_QUADS); //border
+    glBegin(GL_QUADS); 
         glColor3ub(200, 204, 210);
         glVertex2f(-1.0f, 0.95f);
         glVertex2f(-1.0f, 1.0f);
@@ -473,51 +473,51 @@ void displayMor(){
     glPopMatrix();
 
 	glPopMatrix();
-	glPushMatrix(); //Windmill 3
+	glPushMatrix(); 
 	glTranslated(-0.35,0.40,0);
 	glScaled(0.13,0.12,1);
 
 	glPopMatrix();
-	glPushMatrix(); //Windmill 4
+	glPushMatrix(); 
 	glTranslated(-0.60,0.31,0);
 	glScaled(0.13,0.15,1);
 
 	glPopMatrix();
 
-	glPushMatrix();//bridge
+	glPushMatrix();
     glTranslatef(-0.055f,0.55f,0.0f);
 	glScaled(1.4,0.9,1);
 	glRotated(50, 0,1,0);
 	bridge();
     glPopMatrix();
 
-    glPushMatrix();//bridgeCar2
+    glPushMatrix();
     glTranslated(0,0.55,0);
 	glScaled(0.12,0.18,0);
 	glRotatef(-8,0.5f,0.0f,1.0f);
     bridgeCar2(val);
     glPopMatrix();
-    glPushMatrix();//bridgeCar1
+    glPushMatrix();
     glTranslated(0,0.545,0);
 	glScaled(0.13,0.125,0);
 	glRotatef(-13,0.5f,0.0f,1.0f);
     bridgeCar1(val);
     glPopMatrix();
 
-    glPushMatrix();//lampost
+    glPushMatrix();
     glLineWidth(1);
     glTranslatef(0.15f,0.6f,0.0f);
 	glScaled(0.13,0.13,1);
 	lampPost_panel(val);
     glPopMatrix();
-    glPushMatrix();//lampost
+    glPushMatrix();
     glLineWidth(1);
     glTranslatef(-0.24f,0.68f,0.0f);
 	glScaled(0.14,0.14,1);
 	lampPost_panel(val);
     glPopMatrix();
 
-    glPushMatrix();//train
+    glPushMatrix();
     glTranslatef(0.0f,0.32f,0.0f);
 	glScaled(1,0.5,1);
 	glRotated(180,0,1,0);
