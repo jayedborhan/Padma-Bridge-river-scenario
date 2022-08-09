@@ -10,7 +10,7 @@ void displayMor();
 
 
 void initGL(){
-    glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Black and opaque
+    glClearColor(0.0f, 0.0f, 0.0f, 1.0f); // Black and opaque padbi
 }
 void automated_mor(int val){
     glutDisplayFunc(displayMor);
