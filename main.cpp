@@ -666,7 +666,7 @@ int main(int argc, char** argv){
    glutInit(&argc, argv);
    glutInitWindowSize(1600,900);
    glutInitWindowPosition(150,80);
-   glutCreateWindow("PADMA BRIDGE SCENARIO");
+   glutCreateWindow("Padma Bridge Scenario");
    gluOrtho2D(-2, 2, -1, 1);
    glutDisplayFunc(info);
    glutKeyboardFunc(handleKeypress);
