@@ -557,13 +557,13 @@ void displayMor(){
 	glScaled(0.3,0.3,1);
 
     glPopMatrix();
-    glPushMatrix();//lampost
+    glPushMatrix();
     glLineWidth(1);
     glTranslatef(0.0f,-0.08f,0.0f);
 	glScaled(0.3,0.3,1);
 
     glPopMatrix();
-    glPushMatrix();//lampost
+    glPushMatrix();
     glLineWidth(1);
     glTranslatef(-0.7f,-0.08f,0.0f);
 	glScaled(0.3,0.3,1);
