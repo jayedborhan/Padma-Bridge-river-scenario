@@ -1,7 +1,7 @@
 ***Project Title***
 
-#AIUB campus scenario
+#Padma Bridge river scenario
 
 ***Description***
 
-This project is about AIUB permanent campus where it includes the C-Building, D-Building, Tree, Sun, 2 side road, Moving objects (such as car, man, cloud, plane, etc), and so on. Here all the objects of this project will be well organized. This project also includes day and night mood along with rainy weather for the realistic view.
+This project is about Padma Bridge & river scenario. Where it includes the Padma river, Bridge, Trees, Sun, road, Moving objects (such as car, boat, train, cloud, windmill etc), and so on. Here all the objects of this project will be well organized. This project also includes day and night mood along with rainy weather for the realistic view.
