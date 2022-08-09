@@ -18,7 +18,7 @@ void automated_mor(int val){
 
 GLfloat positionBridgeCar1 = 0.8f;
 GLfloat speedBridgeCar1 = 0.2f;
-void updateBridgeCar1(int value){ //1
+void updateBridgeCar1(int value){ 
     if(positionBridgeCar1 < -7.7)
     {
         positionBridgeCar1 = 4.1f;
