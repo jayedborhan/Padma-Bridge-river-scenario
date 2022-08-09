@@ -392,7 +392,7 @@ void lampPost_panel(int val){ //for bridge
 
     glEnd();
 
-    /////////////////////////////////
+    ////////////////////////
 
     //night light
     if(val == 9){
